@@ -1,6 +1,9 @@
 {
+  "engines":{
+      "node":"22.11.0"
+    },
   "name": "frontend",
-  "version": "22.11.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",

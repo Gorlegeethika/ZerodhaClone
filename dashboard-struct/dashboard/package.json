@@ -1,6 +1,9 @@
 {
+  "engines":{
+      "node":"22.11.0"
+    },
   "name": "dashboard",
-  "version": "22.11.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
