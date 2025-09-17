@@ -19,7 +19,7 @@ const Logout = () => {
          return;
       }
       const { data } = await axios.get(
-        "http://localhost:3002/verify",
+        "https://zerodhaclone-backend-6e4l.onrender.com/verify",
         { withCredentials: true }
       );
       const { status, user } = data;
