@@ -3,12 +3,14 @@ import Hero from "./Hero";
 import LeftSection from "./LeftSection";
 import RightSection from "./RightSection";
 import Universe from "./Universe";
+import kiteImg from "../media/images/Kite.png";
+import kiteConnectImg from "../media/images/Kiteconnect.png";
 function ProductsPage() {
   return (
     <>
       <Hero />
       <LeftSection
-        imageURL="media/images/Kite.png"
+        imageURL={kiteImg}
         productName="Kite"
         productDescription="Our ultra-fast flagship trading platform with streaming market data,
             advanced charts, an elegant UI, and more. Enjoy the Kite experience
@@ -38,7 +40,7 @@ function ProductsPage() {
         appStore="https://apps.apple.com/in/app/coin-by-zerodha-mutual-funds/id1392892554"
       />
       <RightSection
-        imageURL="media/images/Kiteconnect.png"
+         imageURL={kiteConnectImg}
         productName="Kite Connect API"
         productDescription="Build powerful trading platforms and experiences with our super simple HTTP/JSON APIs. If you are a startup, build your investment
          app and showcase it to our clientbase."
