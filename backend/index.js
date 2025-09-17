@@ -20,7 +20,7 @@ const app=express();
 // Middleware
 app.use(
   cors({
-    origin: ["http://localhost:3000"], // frontend
+    origin: ["https://zerodhaclone-frontend-sw5c.onrender.com"], // frontend
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
