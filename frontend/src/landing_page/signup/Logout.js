@@ -14,7 +14,7 @@ const Logout = () => {
         navigate("/login");
       }
       const { data } = await axios.post(
-        "http://localhost:3002/logout",
+        "https://zerodhaclone-backend-6e4l.onrender.com/logout",
         {},
         { withCredentials: true }
       );

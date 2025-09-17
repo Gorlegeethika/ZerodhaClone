@@ -36,7 +36,7 @@ const Logout = () => {
 
   const handleLogout = async () => {
     try {
-      await axios.post("http://localhost:3002/logout", {}, { withCredentials: true });
+      await axios.post("https://zerodhaclone-backend-6e4l.onrender.com/logout", {}, { withCredentials: true });
       removeCookie("token");
       toast.success("Logged out successfully!", { position: "top-right" });
       setTimeout(() => navigate("/login"), 2000);

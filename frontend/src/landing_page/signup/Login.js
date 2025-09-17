@@ -26,7 +26,7 @@ const Login = () => {
 
     try {
       const { data } = await axios.post(
-        "http://localhost:3002/login",
+        "https://zerodhaclone-backend-6e4l.onrender.com/login",
         { email, password },
         { withCredentials: true }
       );
