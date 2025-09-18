@@ -21,7 +21,7 @@ const app=express();
 app.use(
   cors({
     origin: ["https://zerodhaclone-frontend-sw5c.onrender.com",
-     " https://zerodhaclone-dashboard-ty33.onrender.com",
+             "https://zerodhaclone-dashboard-ty33.onrender.com",
     ], // frontend
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
