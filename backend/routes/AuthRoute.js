@@ -7,9 +7,10 @@ router.post("/login", Login);
 router.get("/verify", userVerification); // now this works
 router.post("/logout", (req, res) => {
   res.clearCookie("token", {
-    httpOnly: false,
-    secure: false, // set to true in production with HTTPS
-    sameSite: "lax",
+    httpOnly: true,
+    secure: true, // set to true in production with HTTPS
+    sameSite: "None",
+    path: "/",
   });
   res.status(200).json({ message: "Logged out successfully" });
 });
