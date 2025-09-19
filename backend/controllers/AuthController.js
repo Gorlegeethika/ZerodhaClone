@@ -9,14 +9,15 @@ module.exports.Signup = async (req, res) => {
     if (existingUser) {
       return res.status(400).json({ message: "User already exists" });
     }
+
     const user = await User.create({ email, password, username, createdAt });
     const token = createSecretToken(user._id);
 
     res.cookie("token", token, {
       httpOnly: true,
-      secure: true,   // set true if you use https
-      sameSite: "None",
-       path: "/",
+      secure: process.env.NODE_ENV === "production", // ✅ Only secure in prod
+      sameSite: process.env.NODE_ENV === "production" ? "None" : "Lax", // ✅ Safe locally
+      path: "/",
     });
 
     return res.status(201).json({
@@ -47,9 +48,9 @@ module.exports.Login = async (req, res) => {
 
     res.cookie("token", token, {
       httpOnly: true,
-      secure: true,
-      sameSite: "None",
-       path: "/",
+      secure: process.env.NODE_ENV === "production", 
+      sameSite: process.env.NODE_ENV === "production" ? "None" : "Lax", 
+      path: "/",
     });
 
     return res.status(200).json({ message: "User logged in successfully", success: true });
