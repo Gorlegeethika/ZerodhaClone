@@ -18,6 +18,10 @@ Dashboard Url - https://zerodhaclone-dashboard-ty33.onrender.com
 
 
 
+
+
+
+
 ## 📌 Project Overview
 A full-stack stock trading platform (Zerodha Clone) built with React (Frontend & Dashboard) and Express/MongoDB (Backend).  
 Features: Holdings, Positions, Watchlist, Buy/Sell Orders, Charts, and Secure User Authentication.
