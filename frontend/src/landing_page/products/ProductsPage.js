@@ -14,7 +14,7 @@ function ProductsPage() {
         productDescription="Our ultra-fast flagship trading platform with streaming market data,
             advanced charts, an elegant UI, and more. Enjoy the Kite experience
             seamlessly on your Android and iOS devices."
-        tryDemo="https://kite-demo.zerodha.com/dashboard"
+        tryDemo="https://zerodhaclone-dashboard-ty33.onrender.com"
         linkText="Try demo"
         learnMore="https://zerodha.com/products/kite"
         googlePlay="https://play.google.com/store/apps/details?id=com.zerodha.kite3"

@@ -49,7 +49,7 @@ function LeftSection({
             )}
             {appStore && (
               <a href={appStore}>
-                <img src="media/images/appStoreBadge.svg" alt="App Store" />
+                <img src="media/images/appstoreBadge.svg" alt="App Store" />
               </a>
             )}
           </div>
