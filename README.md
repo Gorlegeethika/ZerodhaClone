@@ -45,7 +45,7 @@ It is built using **React** and connects to the backend.
 ## ⚙️ Setup Instructions
 
  1️⃣ Install Dependencies
-```bash or Terminal
+bash or Terminal
 cd frontend
 npm install
 2️⃣ Run Locally
