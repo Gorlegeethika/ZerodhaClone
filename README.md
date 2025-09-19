@@ -2,12 +2,17 @@
 Check it Out first:
 
 Frontend Url -https://zerodhaclone-frontend-sw5c.onrender.com
+
 ![image alt](https://github.com/Gorlegeethika/ZerodhaClone/blob/aed9f0e81c9e297623bebd4a27a1a96a30656b22/frontend.png)
 
 
-Backend Url - https://zerodhaclone-backend-6e4l.onrender.com
+Backend Url - https://zerodhaclone-backend-6e4l.onrender.com/allPositions
 
 Dashboard Url - https://zerodhaclone-dashboard-ty33.onrender.com
+
+![image alt](https://github.com/Gorlegeethika/ZerodhaClone/blob/aed9f0e81c9e297623bebd4a27a1a96a30656b22/dashboard.png)
+
+
 
 ## 📌 Project Overview
 A full-stack stock trading platform (Zerodha Clone) built with React (Frontend & Dashboard) and Express/MongoDB (Backend).  
