@@ -10,7 +10,11 @@ Backend Url - https://zerodhaclone-backend-6e4l.onrender.com/allPositions
 
 Dashboard Url - https://zerodhaclone-dashboard-ty33.onrender.com
 
-![image alt](https://github.com/Gorlegeethika/ZerodhaClone/blob/aed9f0e81c9e297623bebd4a27a1a96a30656b22/dashboard.png)
+![image alt](https://github.com/Gorlegeethika/ZerodhaClone/blob/8ceb64998ced12c21ab6cf1765c8c89ed925cc3e/dashboard1.png)
+
+![image alt](https://github.com/Gorlegeethika/ZerodhaClone/blob/8ceb64998ced12c21ab6cf1765c8c89ed925cc3e/charts.png)
+
+
 
 
 
