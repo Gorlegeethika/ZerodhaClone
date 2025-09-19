@@ -1,4 +1,8 @@
 # Zerodha Clone — Full Stack Trading Platform
+Check it Out first:
+Frontend Url -https://zerodhaclone-frontend-sw5c.onrender.com
+Backend Url - https://zerodhaclone-backend-6e4l.onrender.com
+Dashboard Url - https://zerodhaclone-dashboard-ty33.onrender.com
 
 ## 📌 Project Overview
 A full-stack stock trading platform (Zerodha Clone) built with React (Frontend & Dashboard) and Express/MongoDB (Backend).  
