@@ -37,7 +37,7 @@ npm install
 npm start
 Frontend will run at: http://localhost:3000
 Set the Root Directory in Render → frontend folder.
-![image alt](https://github.com/Gorlegeethika/ZerodhaClone/blob/main/frontend.png?raw=true)
+![image alt](https://github.com/Gorlegeethika/ZerodhaClone/blob/aed9f0e81c9e297623bebd4a27a1a96a30656b22/frontend.png)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # 🛠️ Zerodha Clone — Backend
 
